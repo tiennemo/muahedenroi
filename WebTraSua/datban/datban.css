@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#head{
+    height: 50px;
+    background-color: black;
+}
+
+#nav li{
+    display: inline-block;
+}
+#nav li a{
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 0 30px;
+    font-size: 30px;
+    display: inline-block;
+}
+#nav li:hover a{
+    color: #000;
+    background-color: aquamarine;
+}
+.dat{
+    text-align: center;
+}
+.datban{
+    display: inline-flex;
+    overflow: hidden;
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+    height: 100%;
+}
+.datban img {
+    float: left;
+    margin-right: 20px;
+    width: 50%;
+    height: 200%;
+}
+.nhap{
+    float: right; 
+}
+.aa{
+    margin-top: 10px;
+}
+.bb{
+    margin-top: 10px;
+}
+.cc{
+    margin-top: 10px;
+}
+.dd{
+    margin-top: 10px;
+}
+.ee{
+    margin-top: 10px;
+}
+.chon2{
+    display: flex;  
+}
+.ngay1{
+    padding-left: 0px;
+}
+.thang1{
+    padding-left: 10px;
+}
+.nam1{
+    padding-left: 10px;
+}
+
+.thongtin{
+    display: flex;
+    margin-top: 10px;
+}
+
+.sdt{
+    padding-left: 20px;
+}
+.ghichu{
+    
+    margin-top: 20px;
+}
+.gc{
+    width: 600px;
+    height: 80px;
+    padding-left: 20px;
+}
+
+.goi{
+    background-color: coral;
+    width: 100px;
+    height: 50px;
+    margin-top: 90px;
+    text-align: center;
+    margin: ̀50px auto;
+    border: solid black 1px;
+}
+.goi:hover{
+    background-color: aliceblue;
+    color: #da6811;
+}
+
+.cd1{
+    margin: 20px auto;
+    width: 90%;
+    background-color: rgb(18, 158, 200);
+    height: 30%;
+    text-align: center;
+}
+.ff{
+    text-align: center;
+}

@@ -1,0 +1,172 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#head{
+    height: 50px;
+    background-color: black;
+}
+
+#nav li{
+    display: inline-block;
+}
+#nav li a{
+    color: white;
+    text-decoration: none;
+    line-height: 50px;
+    padding: 0 30px;
+    font-size: 30px;
+    display: inline-block;
+}
+#nav li:hover a{
+    color: #000;
+    background-color: aquamarine;
+}
+h1{
+    color: crimson;
+    font-size: 50px;
+    position: absolute;
+}
+.anhnen{
+    width:100%;
+    height: 70%;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+/*hot line*/
+.sdt{
+    margin: 20px auto;
+    width: 100%;
+    height: 10%;
+    background-color: rgb(18, 158, 200);
+    display: flex;
+    
+}
+.sdt .anhlienlac img{
+    width: 70%;
+    height: 70%;
+    margin: 10px;
+}
+.sdt h4{
+    padding-left: 0%;
+    font-size: 50px;
+    color: #cb1212;
+    margin: 50px;
+}
+.sdt h2{
+    color: #ffffff;
+    font-size: 50px;
+    margin: 50px;
+    padding-left: 20px;
+}
+/*danh gia*/
+.danhgia{
+    text-align: center;
+}
+.danhgia1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 20px;
+  }
+  
+  .chatluongphucvu, .chatluongmonan, .chatluongdouong {
+    width: 200px;
+    height: 300px; 
+    margin-right: 10px;
+  }
+  
+  .chatluongphucvu {
+    background-color:  rgb(17, 196, 241);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .chatluongphucvu img{
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    transition: 0,5s; 
+  }
+  .chatluongphucvu img:hover{
+    transform: scale(1.2);
+  }
+  .chatluongphucvu ul {
+    padding: 0;
+    margin: 0;
+    align-self: flex-start;
+    list-style: none;
+  }
+  
+  .chatluongphucvu ul li {
+    margin-right: 20px;
+  }
+  .chatluongmonan {
+    background-color:  rgb(17, 241, 163);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .chatluongmonan img{
+    width: 100px;
+    height: 100px;
+    margin: 20px auto; 
+    transition: 0,5s; 
+  }
+  .chatluongmonan img:hover{
+    transform: scale(1.2);
+  }
+  .chatluongmonan ul {
+    padding: 0;
+    margin: 0;
+    align-self: flex-start;
+    list-style: none;
+  }
+  
+  .chatluongmonan ul li {
+    margin-right: 20px;
+  }
+  
+  .chatluongdouong {
+    background-color: rgb(175, 185, 40);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .chatluongdouong img{
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+    transition: 0,5s;  
+  }
+
+  .chatluongdouong img:hover{
+    transform: scale(1.2);
+  }
+  .chatluongdouong ul {
+    padding: 0;
+    margin: 0;
+    align-self: flex-start;
+    list-style: none;
+  }
+  
+  .chatluongdouong ul li {
+    margin-right: 20px;
+  }
+
+ .diachi{
+  text-align: center;
+ }
+.diachi1{
+  margin: 20px auto;
+  width: 100%;
+  height: 40%;
+  background-color: rgb(18, 158, 200);
+  text-align: center;
+}
